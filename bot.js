@@ -21,7 +21,7 @@ client.on("ready", () => {
   console.log(`${client.user.tag} IS RUMBLING`);
 
   client.user.setActivity({
-    name: "Counting the Shits",
+    name: "Counting the Counts",
     type: ActivityType.Playing,
   });
 });
