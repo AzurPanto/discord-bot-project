@@ -31,8 +31,12 @@ client.on('messageCreate', message =>  {
     if(message.content.toLowerCase() === 'hey there')
         message.channel.send("What's up numbnuts");
 
-    
+});
 
+client.on('messageCreate', message =>{
+
+  if(message.content.toLowerCase() === 'hey, im not a numbnut')
+  message.channel.send("yes you are, numbnut");
 });
 
 client.login(DISCORD_TOKEN);
